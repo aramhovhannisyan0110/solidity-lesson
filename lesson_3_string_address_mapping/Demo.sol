@@ -23,8 +23,6 @@ contract Demo {
         return targetAddr.balance;
     }
 		
-		MAPPINGS:
-		
     mapping (address => uint) public payments; // storage
 
     function receiveFunds() public payable {
